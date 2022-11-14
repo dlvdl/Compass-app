@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Compass</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2 class="start_window-title">Compass app</h2>
+      <div class="step_container_one active">
+        <p class="start_window-text first_step">
+          First step - choose start position of compass<br />
+        </p>
+        <div class="start_window-button-block">
+          <button class="button-of-side">N</button>
+          <button class="button-of-side">NE</button>
+          <button class="button-of-side">E</button>
+          <button class="button-of-side">SE</button>
+          <button class="button-of-side">S</button>
+          <button class="button-of-side">SW</button>
+          <button class="button-of-side">W</button>
+          <button class="button-of-side">NW</button>
+        </div>
+      </div>
+      <div class="step_container_two">
+        <p class="start_window-text second_step">
+          Second step - certain degree to turn<br />
+        </p>
+        <div class="start_window-deegree-selector">
+          <div class="minus_selector">-</div>
+          <div class="quontity-of-deegree">0</div>
+          <div class="plus_selector">+</div>
+        </div>
+        <div class="start_window-action-button-selector">
+          <div class="action-button start">Turn!</div>
+          <div class="action-button reset">Home</div>
+        </div>
+      </div>
+    </div>
+    <div class="compass-container">
+      <div class="compass">
+        <span>N</span>
+        <span>NE</span>
+        <span>E</span>
+        <span>SE</span>
+        <span>S</span>
+        <span>SW</span>
+        <span>W</span>
+        <span>NW</span>
+        <div class="compass-arrow"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
